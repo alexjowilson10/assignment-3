@@ -123,21 +123,21 @@
 
 
 .square3{
-    height: 240px;
+    height: 265px;
     width: 80px;
     background-color: red;
     grid-column: 2/3;
     grid-row: 1/3;
     position: relative;
     left: 100px;
-    top: 80;
+    top: 56;
 }
 
 .triangle7{
 
     width: 0;
     height: 0;
-    border-top: 79px solid transparent;
+    border-top: 55px solid transparent;
     border-right: 80px solid red;
     border-bottom: 0px solid transparent;
     grid-column: 2/3;
@@ -151,13 +151,40 @@
 
 .triangle8{
     width: 0;
-	height: 0;
-    border-top: 25px solid transparent;
-	border-right: 50px solid #555;
-	border-bottom: 25px solid transparent;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-left: 80px solid #555;
+    border-bottom: 55px solid transparent;
     grid-row: 2 / 3;
     grid-column: 1/ 3;
     position: relative;
-    left:150px;
-
+    left: 509px;
+    bottom: 79px;
 }
+
+.triangle9{
+    width: 50px;
+    height: 0px;
+    border-top: 150px solid transparent;
+    border-right: 390px solid red;
+    border-bottom: 115px solid transparent;
+    grid-row: 2 / 3;
+    grid-column: 1/ 3;
+    position: relative;
+    left: 69px;
+    bottom: 24px;
+}
+
+.triangle10{
+    width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-right: 80px solid #555;
+    border-bottom: 55px solid transparent;
+    grid-row: 2 / 3;
+    grid-column: 1/ 3;
+    position: relative;
+    left: 429px;
+    bottom: 79px;
+}
+
