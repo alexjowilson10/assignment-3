@@ -32,11 +32,11 @@
     grid-row: 3 / 4;
     width: 0;
     height: 0;
-    border-top: 75px solid transparent;
-    border-left: 60px solid #FDDA0D;
-    border-bottom: 88px solid transparent;
+    border-top: 76px solid transparent;
+    border-left: 69px solid #FDDA0D;
+    border-bottom: 91px solid transparent;
     position: relative;
-    bottom: 5px;
+    bottom: 8px;
 }
 
 
@@ -46,7 +46,7 @@
     width: 0;
     height: 0;
     border-left: 60px solid transparent;
-    border-right: 60px solid transparent;
+    border-right: 78px solid transparent;
     border-bottom: 90px solid #d1bea8;
     position: relative;
     right: 10px;
@@ -126,10 +126,10 @@
     height: 265px;
     width: 80px;
     background-color: red;
-    grid-column: 2/3;
+    grid-column: 1/3;
     grid-row: 1/3;
     position: relative;
-    left: 100px;
+    left: 509px;
     top: 56;
 }
 
@@ -140,11 +140,11 @@
     border-top: 55px solid transparent;
     border-right: 80px solid red;
     border-bottom: 0px solid transparent;
-    grid-column: 2/3;
+    grid-column: 1/3;
     grid-row: 1/2;
     left: 15px;
     position: relative;
-    left: 100px;
+    left: 509px;
     bottom: 2px;
     top: 1px;
 }
@@ -186,5 +186,54 @@
     position: relative;
     left: 429px;
     bottom: 79px;
+}
+
+.rectangle1{
+    height: 86px;
+    width: 312px;
+    background-color: #d1bea8;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    left: 119;;
+}
+
+.triangle11{
+    width: 150px;
+    height: 0;
+    border-top: 55px solid transparent;
+    border-left: 79px solid #d1bea8;
+    border-bottom: 32px solid transparent;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    left: 431px;
+    top: 0px;
+}
+
+.triangle12{
+    width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-left: 312px solid #d1bea8;
+    border-bottom: 120px solid transparent;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    position: relative;
+    left: 119px;
+    top: 6px;
+}
+
+.triangle13{
+    width: 0;
+    height: 0;
+    border-top: 115px solid transparent;
+    border-left: 387px solid gray;
+    border-bottom: 0px solid transparent;
+    grid-column: 1/2;
+    grid-row: 4;
+    position: relative;
+    left: 119px;
+    bottom: 35px;
 }
 
